@@ -1,0 +1,52 @@
+h1{
+    border: 2px solid black ;
+    background-color: red;
+    /* color: white; */
+}
+@media( width: 400px ) {
+    h1{
+        background-color: yellow;
+        color: white;
+    }
+}
+@media( min-width:600px ){
+    h1{
+        color: greenyellow;
+        background-color: black;
+    }
+}
+@media ( max-width: 500px){
+    h1{
+        color: aqua;
+        background-color: pink;
+    }
+}
+@media (min-width:100px) and (max-width:300px ){
+    h1{
+        background-color: magenta;
+    }
+}
+@media(orientation: landscape){
+    h1{
+        background-color: blue;
+    }
+}
+
+.index div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.one{
+    background-color:red;
+}
+.two{
+    background:yellow;
+    position: relative;
+   bottom: 60px;
+    z-index: -1;
+}
+.three{
+    background-color:blue;
+}

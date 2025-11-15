@@ -1,0 +1,43 @@
+section {
+    width: 400px;
+    background-color: aquamarine;
+}
+
+.second {
+    background-color: rgba(191, 43, 43, 0.889);
+    opacity: 0.5;
+}
+
+.smiley-face {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #ffa511;
+
+}
+
+.mouth {
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+.left-eye,
+.right-eye {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.right-eye {
+    left: 250px;
+}

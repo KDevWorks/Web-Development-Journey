@@ -1,0 +1,46 @@
+#maintopic {
+    color: chartreuse;
+}
+
+* {
+    text-align: center;
+}
+
+.head {
+    font-family: Georgia;
+}
+
+.paragraph {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+div button {
+    background-color: purple;
+    color: azure;
+}
+
+button:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+p:nth-of-type(dd) {
+    color: yellow;
+}
+
+h1::first-letter {
+    color: red
+}
+
+input[type="checkbox"]:checked+label {
+    color: darkgreen;
+}
+
+#yes:checked+label {
+    color: rgb(128, 0, 23);
+}
+
+input[type="checkbox"]:checked+label {
+    color: darkgreen;
+}

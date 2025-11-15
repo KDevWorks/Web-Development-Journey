@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif;
+}
+
+#login{
+    color: red;
+    background-color:cornsilk
+}
+h1,
+h3 {
+    color: #f52936
+}
+
+p+h3 {
+    text-decoration: aqua underline;
+}
+
+span>button {
+    background-color: skyblue;
+    color: yellow;
+}
+
+input[type="text"] {
+    color: springgreen;
+}
+
+input[type="password"] {
+    color: violet;
+}
+
+ul li:hover {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: lightgreen;
+    color: black;
+}
+input[type="radio"]:checked +label{
+    color: red;
+}
+h1::first-letter {
+    color: rgb(85, 0, 255);
+    
+}

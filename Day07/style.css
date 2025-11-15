@@ -1,0 +1,23 @@
+div {
+    height: 250px;
+    color: rgb(62, 24, 108);
+    width: 300px;
+    border: 5px solid yellow;
+    border-radius: 15px;
+    margin: 40px;
+    margin-top: 50px;
+    margin: 20px 10px;
+}
+
+button {
+    border: 4px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 45px;
+    padding: 20px 30px;
+    padding: 10px 20px 30px;
+    padding: 10px 20px 30px 40px;
+
+    
+}

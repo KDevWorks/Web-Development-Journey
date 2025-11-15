@@ -1,0 +1,18 @@
+h3{
+    color: blue;
+    text-align: center;
+    /* border: solid 2px black; */
+    width: 40%;
+     letter-spacing:5px;
+}
+
+p{
+    color: red;
+    text-decoration: black underline;
+    text-decoration-style: double;
+    text-decoration-color: blue;
+    text-decoration-thickness: 0.1px;
+
+    line-height: 2.5px;
+   
+}
