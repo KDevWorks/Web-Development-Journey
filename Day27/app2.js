@@ -1,4 +1,5 @@
 let url = "http://universities.hipolabs.com/search?name="
+
 let search = document.querySelector("#searchBtn");
 search.addEventListener("click", async () => {
     console.log("Search Button Clicked");
